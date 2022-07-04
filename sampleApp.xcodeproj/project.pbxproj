@@ -7,15 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A761CBCA286D374A00E8B88F /* IndicatorBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A761CBC9286D374A00E8B88F /* IndicatorBar.swift */; };
+		A761CBCC286D54CC00E8B88F /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A761CBCB286D54CC00E8B88F /* PageControl.swift */; };
+		A761CBCE286D8BCF00E8B88F /* ChiPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A761CBCD286D8BCF00E8B88F /* ChiPageIndicator.swift */; };
+		A763B9E9286C3DD000CCCA21 /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A763B9E8286C3DD000CCCA21 /* CarouselView.swift */; };
+		A763B9EF286C3E6800CCCA21 /* BridgeConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A763B9EE286C3E6800CCCA21 /* BridgeConstant.m */; };
+		A763B9F5286C426500CCCA21 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = A763B9F4286C426500CCCA21 /* FXPageControl.m */; };
 		A786B01D286AED58000B29D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A786B01C286AED58000B29D2 /* AppDelegate.swift */; };
 		A786B01F286AED58000B29D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A786B01E286AED58000B29D2 /* SceneDelegate.swift */; };
 		A786B021286AED58000B29D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A786B020286AED58000B29D2 /* ViewController.swift */; };
 		A786B024286AED58000B29D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786B022286AED58000B29D2 /* Main.storyboard */; };
 		A786B026286AED5A000B29D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A786B025286AED5A000B29D2 /* Assets.xcassets */; };
 		A786B029286AED5A000B29D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786B027286AED5A000B29D2 /* LaunchScreen.storyboard */; };
+		A7EB918728729C800075C95B /* sampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB918628729C800075C95B /* sampleAppUITests.swift */; };
+		A7EB918928729C800075C95B /* sampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB918828729C800075C95B /* sampleAppUITestsLaunchTests.swift */; };
+		A7EB91902873456A0075C95B /* AccountSwipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB918F2873456A0075C95B /* AccountSwipper.swift */; };
+		A7EB91922873471D0075C95B /* HorizontalCategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EB91912873471D0075C95B /* HorizontalCategoryBar.swift */; };
+		A7EDDD53286C9A3E002E020F /* ImageSwipper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD52286C9A3E002E020F /* ImageSwipper.swift */; };
+		A7EDDD63286CD693002E020F /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD57286CD693002E020F /* CHIBasePageControl.swift */; };
+		A7EDDD64286CD693002E020F /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD58286CD693002E020F /* CHIPageControllable.swift */; };
+		A7EDDD65286CD693002E020F /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD59286CD693002E020F /* CHILayer.swift */; };
+		A7EDDD66286CD693002E020F /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD5A286CD693002E020F /* CHIPageControlJalapeno.swift */; };
+		A7EDDD67286CD693002E020F /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD5B286CD693002E020F /* CHIPageControlAleppo.swift */; };
+		A7EDDD68286CD693002E020F /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD5C286CD693002E020F /* CHIPageControlJaloro.swift */; };
+		A7EDDD69286CD693002E020F /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD5D286CD693002E020F /* CHIPageControlChimayo.swift */; };
+		A7EDDD6A286CD693002E020F /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD5E286CD693002E020F /* CHIPageControlPuya.swift */; };
+		A7EDDD6B286CD693002E020F /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD5F286CD693002E020F /* CHIPageControlPaprika.swift */; };
+		A7EDDD6C286CD693002E020F /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD60286CD693002E020F /* CHIPageControlFresno.swift */; };
+		A7EDDD6D286CD693002E020F /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EDDD61286CD693002E020F /* CHIPageControlAji.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		A7EB918A28729C800075C95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A786B011286AED58000B29D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A786B018286AED58000B29D2;
+			remoteInfo = sampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		A761CBC9286D374A00E8B88F /* IndicatorBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndicatorBar.swift; sourceTree = "<group>"; };
+		A761CBCB286D54CC00E8B88F /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		A761CBCD286D8BCF00E8B88F /* ChiPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChiPageIndicator.swift; sourceTree = "<group>"; };
+		A763B9E8286C3DD000CCCA21 /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		A763B9EE286C3E6800CCCA21 /* BridgeConstant.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BridgeConstant.m; sourceTree = "<group>"; };
+		A763B9F0286C3EB600CCCA21 /* BridgeConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeConstant.h; sourceTree = "<group>"; };
+		A763B9F1286C3F0200CCCA21 /* sampleApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sampleApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		A763B9F3286C426500CCCA21 /* FXPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXPageControl.h; sourceTree = "<group>"; };
+		A763B9F4286C426500CCCA21 /* FXPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXPageControl.m; sourceTree = "<group>"; };
 		A786B019286AED58000B29D2 /* sampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A786B01C286AED58000B29D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A786B01E286AED58000B29D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +65,24 @@
 		A786B025286AED5A000B29D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A786B028286AED5A000B29D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A786B02A286AED5A000B29D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7EB918428729C800075C95B /* sampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EB918628729C800075C95B /* sampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAppUITests.swift; sourceTree = "<group>"; };
+		A7EB918828729C800075C95B /* sampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A7EB918F2873456A0075C95B /* AccountSwipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSwipper.swift; sourceTree = "<group>"; };
+		A7EB91912873471D0075C95B /* HorizontalCategoryBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCategoryBar.swift; sourceTree = "<group>"; };
+		A7EDDD52286C9A3E002E020F /* ImageSwipper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSwipper.swift; sourceTree = "<group>"; };
+		A7EDDD55286CD693002E020F /* CHIPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHIPageControl.h; sourceTree = "<group>"; };
+		A7EDDD57286CD693002E020F /* CHIBasePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIBasePageControl.swift; sourceTree = "<group>"; };
+		A7EDDD58286CD693002E020F /* CHIPageControllable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControllable.swift; sourceTree = "<group>"; };
+		A7EDDD59286CD693002E020F /* CHILayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHILayer.swift; sourceTree = "<group>"; };
+		A7EDDD5A286CD693002E020F /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		A7EDDD5B286CD693002E020F /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+		A7EDDD5C286CD693002E020F /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		A7EDDD5D286CD693002E020F /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlChimayo.swift; sourceTree = "<group>"; };
+		A7EDDD5E286CD693002E020F /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		A7EDDD5F286CD693002E020F /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		A7EDDD60286CD693002E020F /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlFresno.swift; sourceTree = "<group>"; };
+		A7EDDD61286CD693002E020F /* CHIPageControlAji.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CHIPageControlAji.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,13 +93,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7EB918128729C800075C95B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A763B9EA286C3E2200CCCA21 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				A763B9F3286C426500CCCA21 /* FXPageControl.h */,
+				A763B9F4286C426500CCCA21 /* FXPageControl.m */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		A763B9F2286C3F1300CCCA21 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A763B9EE286C3E6800CCCA21 /* BridgeConstant.m */,
+				A763B9F0286C3EB600CCCA21 /* BridgeConstant.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		A786B010286AED58000B29D2 = {
 			isa = PBXGroup;
 			children = (
 				A786B01B286AED58000B29D2 /* sampleApp */,
+				A7EB918528729C800075C95B /* sampleAppUITests */,
 				A786B01A286AED58000B29D2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				A786B019286AED58000B29D2 /* sampleApp.app */,
+				A7EB918428729C800075C95B /* sampleAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +142,62 @@
 		A786B01B286AED58000B29D2 /* sampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				A763B9F1286C3F0200CCCA21 /* sampleApp-Bridging-Header.h */,
+				A7EDDD54286CD693002E020F /* CHIPageControl */,
+				A763B9EA286C3E2200CCCA21 /* ThirdParty */,
+				A763B9F2286C3F1300CCCA21 /* Utils */,
 				A786B01C286AED58000B29D2 /* AppDelegate.swift */,
 				A786B01E286AED58000B29D2 /* SceneDelegate.swift */,
 				A786B020286AED58000B29D2 /* ViewController.swift */,
+				A763B9E8286C3DD000CCCA21 /* CarouselView.swift */,
+				A7EDDD52286C9A3E002E020F /* ImageSwipper.swift */,
+				A761CBCB286D54CC00E8B88F /* PageControl.swift */,
+				A761CBCD286D8BCF00E8B88F /* ChiPageIndicator.swift */,
+				A761CBC9286D374A00E8B88F /* IndicatorBar.swift */,
+				A7EB918F2873456A0075C95B /* AccountSwipper.swift */,
+				A7EB91912873471D0075C95B /* HorizontalCategoryBar.swift */,
 				A786B022286AED58000B29D2 /* Main.storyboard */,
 				A786B025286AED5A000B29D2 /* Assets.xcassets */,
 				A786B027286AED5A000B29D2 /* LaunchScreen.storyboard */,
 				A786B02A286AED5A000B29D2 /* Info.plist */,
 			);
 			path = sampleApp;
+			sourceTree = "<group>";
+		};
+		A7EB918528729C800075C95B /* sampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7EB918628729C800075C95B /* sampleAppUITests.swift */,
+				A7EB918828729C800075C95B /* sampleAppUITestsLaunchTests.swift */,
+			);
+			path = sampleAppUITests;
+			sourceTree = "<group>";
+		};
+		A7EDDD54286CD693002E020F /* CHIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				A7EDDD55286CD693002E020F /* CHIPageControl.h */,
+				A7EDDD56286CD693002E020F /* Core */,
+				A7EDDD5A286CD693002E020F /* CHIPageControlJalapeno.swift */,
+				A7EDDD5B286CD693002E020F /* CHIPageControlAleppo.swift */,
+				A7EDDD5C286CD693002E020F /* CHIPageControlJaloro.swift */,
+				A7EDDD5D286CD693002E020F /* CHIPageControlChimayo.swift */,
+				A7EDDD5E286CD693002E020F /* CHIPageControlPuya.swift */,
+				A7EDDD5F286CD693002E020F /* CHIPageControlPaprika.swift */,
+				A7EDDD60286CD693002E020F /* CHIPageControlFresno.swift */,
+				A7EDDD61286CD693002E020F /* CHIPageControlAji.swift */,
+			);
+			path = CHIPageControl;
+			sourceTree = "<group>";
+		};
+		A7EDDD56286CD693002E020F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A7EDDD57286CD693002E020F /* CHIBasePageControl.swift */,
+				A7EDDD58286CD693002E020F /* CHIPageControllable.swift */,
+				A7EDDD59286CD693002E020F /* CHILayer.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +220,24 @@
 			productReference = A786B019286AED58000B29D2 /* sampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A7EB918328729C800075C95B /* sampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7EB918E28729C800075C95B /* Build configuration list for PBXNativeTarget "sampleAppUITests" */;
+			buildPhases = (
+				A7EB918028729C800075C95B /* Sources */,
+				A7EB918128729C800075C95B /* Frameworks */,
+				A7EB918228729C800075C95B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EB918B28729C800075C95B /* PBXTargetDependency */,
+			);
+			name = sampleAppUITests;
+			productName = sampleAppUITests;
+			productReference = A7EB918428729C800075C95B /* sampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +250,10 @@
 				TargetAttributes = {
 					A786B018286AED58000B29D2 = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					A7EB918328729C800075C95B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A786B018286AED58000B29D2;
 					};
 				};
 			};
@@ -116,6 +271,7 @@
 			projectRoot = "";
 			targets = (
 				A786B018286AED58000B29D2 /* sampleApp */,
+				A7EB918328729C800075C95B /* sampleAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +287,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7EB918228729C800075C95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,13 +301,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7EDDD6B286CD693002E020F /* CHIPageControlPaprika.swift in Sources */,
+				A761CBCA286D374A00E8B88F /* IndicatorBar.swift in Sources */,
+				A7EDDD63286CD693002E020F /* CHIBasePageControl.swift in Sources */,
+				A7EDDD66286CD693002E020F /* CHIPageControlJalapeno.swift in Sources */,
+				A7EDDD64286CD693002E020F /* CHIPageControllable.swift in Sources */,
+				A7EDDD68286CD693002E020F /* CHIPageControlJaloro.swift in Sources */,
 				A786B021286AED58000B29D2 /* ViewController.swift in Sources */,
 				A786B01D286AED58000B29D2 /* AppDelegate.swift in Sources */,
+				A7EDDD6C286CD693002E020F /* CHIPageControlFresno.swift in Sources */,
+				A7EDDD6A286CD693002E020F /* CHIPageControlPuya.swift in Sources */,
+				A761CBCC286D54CC00E8B88F /* PageControl.swift in Sources */,
+				A761CBCE286D8BCF00E8B88F /* ChiPageIndicator.swift in Sources */,
+				A7EDDD69286CD693002E020F /* CHIPageControlChimayo.swift in Sources */,
+				A763B9F5286C426500CCCA21 /* FXPageControl.m in Sources */,
+				A763B9E9286C3DD000CCCA21 /* CarouselView.swift in Sources */,
+				A7EDDD6D286CD693002E020F /* CHIPageControlAji.swift in Sources */,
+				A763B9EF286C3E6800CCCA21 /* BridgeConstant.m in Sources */,
+				A7EDDD67286CD693002E020F /* CHIPageControlAleppo.swift in Sources */,
+				A7EB91902873456A0075C95B /* AccountSwipper.swift in Sources */,
+				A7EB91922873471D0075C95B /* HorizontalCategoryBar.swift in Sources */,
+				A7EDDD53286C9A3E002E020F /* ImageSwipper.swift in Sources */,
+				A7EDDD65286CD693002E020F /* CHILayer.swift in Sources */,
 				A786B01F286AED58000B29D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7EB918028729C800075C95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7EB918928729C800075C95B /* sampleAppUITestsLaunchTests.swift in Sources */,
+				A7EB918728729C800075C95B /* sampleAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7EB918B28729C800075C95B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A786B018286AED58000B29D2 /* sampleApp */;
+			targetProxy = A7EB918A28729C800075C95B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A786B022286AED58000B29D2 /* Main.storyboard */ = {
@@ -291,12 +491,14 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = JJQT88D763;
 				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = sampleApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,8 +507,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mariam.sampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stephy/Desktop/sampleApp/sampleApp/sampleApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -325,6 +529,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,8 +538,53 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.mariam.sampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/stephy/Desktop/sampleApp/sampleApp/sampleApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A7EB918C28729C800075C95B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJQT88D763;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariam.sampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sampleApp;
+			};
+			name = Debug;
+		};
+		A7EB918D28729C800075C95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JJQT88D763;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mariam.sampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sampleApp;
 			};
 			name = Release;
 		};
@@ -355,6 +605,15 @@
 			buildConfigurations = (
 				A786B02E286AED5A000B29D2 /* Debug */,
 				A786B02F286AED5A000B29D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7EB918E28729C800075C95B /* Build configuration list for PBXNativeTarget "sampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7EB918C28729C800075C95B /* Debug */,
+				A7EB918D28729C800075C95B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
